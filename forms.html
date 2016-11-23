@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title> Multiplication Algorithm</title>
+<style>
+span
+{
+    display:inline-block;
+    position:relative;
+    float:none;
+    margin-left:550px;
+}
+
+button
+{
+    border: none;
+    padding: 15px;
+    background: #4479BA;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: 570px;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form onsubmit="checkInp()" action="program.php" method="post">
+    <p style = " color:blue; text-align:center; font-size:20px"><strong> ENTER THE NUMBER</strong></p>
+    <span ><input type="number" id="x" name="x"  style="width:130px; height:40px"></span>
+    <br>
+    <br>
+    <br>
+<button type="submit" value="Get a table">Get a table </button>
+</form>
+<form onsubmit="checkInp()" action="program1.php" method="post">
+
+    <p style = " color:blue; text-align:center; font-size:20px"><strong> ENTER THE NUMBER </strong></p>
+    <span ><input type="number" id="x" name="x"  style="width:130px; height:40px"></span>
+    <br>
+    <br>
+    <br>
+<button type="submit" value="Palindrome or Not">Palindrome or not </button>
+    <br>
+ </form>
+
+
+
+ </body>
+<script type="text/javascript">
+function checkInp()
+
+{
+  var x=document.getElementByID("x").value;
+  if (isNaN(x))
+{
+    alert("Must input numbers");
+    return false;
+  }
+}
+
+</script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
