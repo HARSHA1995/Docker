@@ -7,9 +7,21 @@
 <h4> Table Application</h4>
 <h6> This app have the interface to accept number input and returns a table of that particular number </h6>
 
-<h4>http://localhost:8080/program.php?x=4 </h4>
+<h4>http://localhost:8080/program.php?x=2 </h4>
 
 Sample Result:
+
+{"input":"2","result":"2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+"}
 
 
 
@@ -17,12 +29,12 @@ Sample Result:
 
 <h3>API END POINT</h3>
 
-<h4> Prime Number Validator </h4>
+<h4> Palindrome or not </h4>
 
-<h6> This service validates the given number is a prime or not using get request. Returns a json formatted result with a message whether the input is prime or not. Sample URL is given below </h6>
+<h6> A palindrome is a number that can be read from right to left, and yet still remains the same as the number read left to right. For example, ‘121’ and ‘959’ are both palindromes because if you read the numbers from right to left they are equivalent to the numbers read left to right. Below is the example for palindrome and all the examples realted to palindrome are in JSON format </h6>
 
-<h4>http://localhost:8080/RestApp/index.php/api/is_prime/id/1</h4>
+<h4> http://localhost:8080/program1.php?x=121 </h4>
 
 Sample Result:
 
-{"input":1,"result":"Neither prime nor composite"}
+{"input":"121","result":"Palindrome"}
