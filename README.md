@@ -27,7 +27,7 @@ Sample Result:
 
 <br>
 
-<h3>API END POINT</h3>
+<h3>APPLICATION END POINT</h3>
 
 <h4> Palindrome or not </h4>
 
